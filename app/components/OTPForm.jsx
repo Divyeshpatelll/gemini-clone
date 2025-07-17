@@ -88,7 +88,7 @@ const OTPForm = () => {
     if (enteredOtp === sentOtp) {
       toast.success("Login successful");
       login(selectedCode + watch("phone"));
-      router.push("/dashboard");
+      router.push("/");
     } else {
       toast.error("Invalid OTP");
     }
@@ -209,7 +209,7 @@ const OTPForm = () => {
         {step === "otp" && (
           <form onSubmit={handleSubmit(onSubmitOtp)} className="space-y-6">
             <div>
-              <label className="block mb-2 font-medium text-gray-800 flex items-center gap-2">
+              <label className="mb-2 font-medium text-gray-800 flex items-center gap-2">
                 <FaLock className="text-yellow-500" /> Enter OTP{" "}
               </label>
               <div className="flex gap-3 justify-center">
