@@ -1,5 +1,3 @@
----
-
 ## ✨ Features
 
 - **OTP-based Login** with country code (API fetched, Zod validation)
@@ -24,8 +22,6 @@
 - **Data Persistence:** localStorage for auth & chat
 - **Logout:** Secure session clear & redirect
 
----
-
 ## 🛠️ Tech Stack
 
 - **Framework:** Next.js 15 (App Router)
@@ -35,20 +31,12 @@
 - **API:** [restcountries.com](https://restcountries.com/) for country codes
 - **Notifications:** react-toastify
 
----
-
-## 🖥️ Screenshots
-
-> _(Add your own screenshots here for bonus points!)_
-
----
-
 ## 🏁 Getting Started
 
 ### 1. Clone the repo
 
 ```bash
-git clone pending
+git clone https://github.com/Divyeshpatelll/gemini-clone
 cd gemini-clone
 ```
 
@@ -70,7 +58,6 @@ yarn dev
 
 App will be running at [http://localhost:3000](http://localhost:3000)
 
----
 
 ## ⚙️ Project Details
 
@@ -95,7 +82,7 @@ App will be running at [http://localhost:3000](http://localhost:3000)
 ### **Deployment**
 
 - Vercel
-- link
+- [link](https://gemini-clone-coral-tau.vercel.app/login)
 
 ---
 
